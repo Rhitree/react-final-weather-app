@@ -1,0 +1,39 @@
+ul {
+  list-style: square;
+}
+
+::marker {
+  color: #dc8b53;
+}
+
+.Weather {
+    padding: 50px;
+    color: #353535;
+    text-shadow: 1px 1px 1px #ffffff;
+    font-family:'VT323', Arial, sans-serif;
+    box-shadow: 5px 5px 0px -1px #000000;
+    font-size: 25px;
+    background: url(/src/img/Mario.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Weather h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow:3px 3px 1px #000000;
+}
+
+.form-control {
+  font-style: italic;
+  box-shadow: 5px 5px 0px -1px #000000;
+  border-radius:0%;
+}
+
+.button {
+  background-color: #a0b672;
+  color: #4f4f4f;
+  box-shadow: 5px 5px 0px -1px #000000;
+}
+

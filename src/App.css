@@ -1,0 +1,53 @@
+body {
+  font-family:'VT323', Arial, sans-serif;
+  padding: auto;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: #dc8b53;
+  margin: 20px;
+  box-shadow: 5px 5px 0px -1px #000000;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+.container {
+  max-width: 900px;
+  padding: auto;
+  margin: auto;
+}
+
+.outerContainer {
+  padding: auto;
+  margin: auto;
+  
+  --s: 100px; /* control the size*/
+  --c1: #a2b6a4;
+  --c2: #ECECEC;
+  
+  --_g: #0000 90deg,var(--c1) 0;
+  background: 
+    conic-gradient(from 90deg at 2px 2px,var(--_g)),
+    conic-gradient(from 90deg at 1px 1px,var(--_g)),
+    var(--c2);
+  background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
+  padding: 50px;
+  max-width: 800px;
+
+}
+
+.mainHeading {
+  font-weight: bold;
+  font-size: 40px;
+  background: #6AB1AA;
+  padding: auto;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 5px 5px 0px -1px #000000;
+  text-shadow: 1px 1px 1px #ffffff;
+  margin: 20px;
+}
+
+
+
