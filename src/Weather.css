@@ -2,6 +2,16 @@ ul {
   list-style: square;
 }
 
+.container {
+  max-width: 900px;
+  padding: auto;
+  margin: auto;
+  background: url(/src/img/Mario.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 5px 5px 0px #000000;
+}
+
 ::marker {
   color: #dc8b53;
 }
@@ -11,11 +21,8 @@ ul {
     color: #353535;
     text-shadow: 1px 1px 1px #ffffff;
     font-family:'VT323', Arial, sans-serif;
-    box-shadow: 5px 5px 0px -1px #000000;
     font-size: 25px;
-    background: url(/src/img/Mario.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    font-weight: bold;
 }
 
 .Weather h1 {
@@ -25,15 +32,33 @@ ul {
     text-shadow:3px 3px 1px #000000;
 }
 
+.weather .city-and-img {
+  display: inline;
+
+}
+
 .form-control {
   font-style: italic;
-  box-shadow: 5px 5px 0px -1px #000000;
+  box-shadow: 5px 5px 0px #000000;
   border-radius:0%;
+  font-size: 20px;
 }
 
 .button {
   background-color: #a0b672;
   color: #4f4f4f;
-  box-shadow: 5px 5px 0px -1px #000000;
+  box-shadow: 5px 5px 0px  #000000;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 64px;
+  text-shadow:3px 3px 1px #dc8b53;
+}
+
+.Weather .unit {
+  font-size: 32px;
+  text-shadow:3px 3px 1px #dc8b53;
+
 }
 

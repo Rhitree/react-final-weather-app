@@ -16,6 +16,10 @@ footer {
   max-width: 900px;
   padding: auto;
   margin: auto;
+  background: url(/src/img/Mario.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 5px 5px 0px #000000;
 }
 
 .outerContainer {
