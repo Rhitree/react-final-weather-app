@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./Weather.css";
-import "./WeatherInfo"
 import axios from 'axios';
 import WeatherInfo from "./WeatherInfo";
 
 
-export default function Weather() {
+export default function Weather(props) {
+    const [city, setCity] = useState(props.defaultCity);
     const [weatherData, setWeatherData] = useState({ ready: false })
     ;
     function handleResponse(response) {
@@ -15,21 +15,37 @@ export default function Weather() {
             wind: response.data.wind.speed,
             date: new Date(response.data.time * 1000),
             city: response.data.city,
-            humidity: response.data.temperature.humididty,
+            humidity: response.data.temperature.humidity,
             condition: response.data.condition.decription,
             icon: response.data.condition.icon_url,
         });
     }
 
+    function search() {
+    const apiKey ="b3a37c1584b0oatf80a196c74f3071cb";
+    let apiUrl =`https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(handleResponse);
+    }
+
+    function handleSubmit(event) {
+        event.preventDefault();
+        search();
+    }
+
+    function handleCityChange(event) {
+        setCity(event.target.value);
+    }
+
     if (weatherData.ready) {
         return (
         <div className="Weather">
-            <form>
+            <form onSubmit={handleSubmit}>
                 <input
                 type="search"
                 placeholder="Enter A City..."
                 className="form-control"
                 autoFocus="on"
+                onChange={handleCityChange}
                 />
                 <input type="submit" value="Search" className="button" />            
             </form>
@@ -38,12 +54,7 @@ export default function Weather() {
         </div>
     );
 } else {
-
-    const apiKey ="b3a37c1584b0oatf80a196c74f3071cb";
-    let city = "London";
-    let apiUrl =`https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
-    axios.get(apiUrl).then(handleResponse);
-
+    search();
     return "Loading...."
     }
 }
