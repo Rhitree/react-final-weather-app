@@ -9,7 +9,7 @@ footer {
   background-color: #dc8b53;
   margin: 20px;
   box-shadow: 5px 5px 0px -1px #000000;
-  text-shadow: 1px 1px 1px #ffffff;
+  text-shadow: 1px 1px 1px #ECECEC;
 }
 
 .container {
@@ -20,6 +20,7 @@ footer {
   background-repeat: no-repeat;
   background-size: 100%;
   box-shadow: 5px 5px 0px #000000;
+
 }
 
 .outerContainer {
@@ -49,7 +50,7 @@ footer {
   text-align: center;
   font-style: italic;
   box-shadow: 5px 5px 0px -1px #000000;
-  text-shadow: 1px 1px 1px #ffffff;
+  text-shadow: 1px 1px 1px #ECECEC;
   margin: 20px;
 }
 
