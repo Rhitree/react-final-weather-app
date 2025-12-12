@@ -7,10 +7,6 @@ ul {
   padding: auto;
   padding-top: auto;
   margin: auto;
-  background: url(/src/img/Mario.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-
 }
 
 ::marker {
@@ -19,17 +15,20 @@ ul {
 
 .Weather {
     padding: 50px;
-    color: #353535;
-    text-shadow: 1px 1px 1px #ECECEC;
+    color: #191919;
     font-family:'VT323', Arial, sans-serif;
     font-size: 25px;
 }
 
 .Weather h1 {
+    border: solid #191919;
     font-size: 60px;
-    color: #ECECEC;
-    text-shadow:3px 3px 1px #000000;
-    margin-left: 40%;
+    background: #FFE3F8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    box-shadow: 5px 5px 1px #191919;
 }
 
 form {
@@ -38,7 +37,8 @@ form {
 }
 
 .form-control {
-  box-shadow: 5px 5px 0px #000000;
+  box-shadow: 5px 5px 1px #191919;
+  border: solid #191919;
   border-radius: 0%;
   display: inline-block;
   width: 80%;
@@ -47,24 +47,30 @@ form {
 }
 
 .button {
-  background-color: #a0b672;
+  background-color: #BAD7FF;
+  border: solid #191919;
   color: #4f4f4f;
-  box-shadow: 5px 5px 0px  #000000;
+  box-shadow: 5px 5px 1px #191919;
   display: inline-block;
 }
 
-.Weather .date-forecast {
+.weatherContainer {
+  background-color: #e5e5f7;
+  background-image:  repeating-linear-gradient(45deg, #D8D9D7 25%, transparent 25%, transparent 75%, #D8D9D7 75%, #D8D9D7), repeating-linear-gradient(45deg, #D8D9D7 25%, #e5e5f7 25%, #e5e5f7 75%, #D8D9D7 75%, #D8D9D7);
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  border: solid #191919;
+  box-shadow: 5px 5px 1px #191919;
 
 }
 
 .Weather .temperature {
   font-weight: bold;
   font-size: 64px;
-  text-shadow:3px 3px 1px #dc8b53;
-  margin-left: 66%;
 }
 
 .Weather .unit {
-  font-size: 32px;
-  text-shadow:3px 3px 1px #dc8b53;
+  font-size: 64px;
 }

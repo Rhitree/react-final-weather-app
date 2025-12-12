@@ -6,30 +6,24 @@ body {
 
 footer {
   text-align: center;
-  background-color: #dc8b53;
-  margin: 20px;
-  box-shadow: 5px 5px 0px -1px #000000;
-  text-shadow: 1px 1px 1px #ECECEC;
+  background-color: #F8AB01;
+  margin: 20px auto;
+  box-shadow: 5px 5px 1px #191919;
+  max-width: 900px;
+  display: block;
+  border: solid #191919;
 }
 
 .container {
   max-width: 900px;
   padding: auto;
   margin: auto;
-  background: url(/src/img/Mario.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  box-shadow: 5px 5px 0px #000000;
-
-}
-
-.outerContainer {
-  padding: auto;
-  margin: auto;
-  
+  background: #F7F1EA;
+  box-shadow: 5px 5px 1px #191919;
+  border: solid #191919;  
   --s: 100px; /* control the size*/
-  --c1: #a2b6a4;
-  --c2: #ECECEC;
+  --c1: #ffffff;
+  --c2: #F9F0EB;
   
   --_g: #0000 90deg,var(--c1) 0;
   background: 
@@ -38,20 +32,38 @@ footer {
     var(--c2);
   background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
   padding: 50px;
-  max-width: 800px;
+  
 
 }
 
+.outerContainer {
+  padding: auto;
+  margin: auto;
+  
+  --s: 100px; /* control the size*/
+  --c1: #2d1e53;
+  --c2: #FFE3F8;
+  
+  --_g: #0000 90deg,var(--c1) 0;
+  background: 
+    conic-gradient(from 90deg at 2px 2px,var(--_g)),
+    conic-gradient(from 90deg at 1px 1px,var(--_g)),
+    var(--c2);
+  background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
+  padding: 50px;
+}
+
 .mainHeading {
+  border: solid #191919;
   font-weight: bold;
   font-size: 40px;
-  background: #6AB1AA;
+  background: #F8AB01;
   padding: auto;
   text-align: center;
   font-style: italic;
-  box-shadow: 5px 5px 0px -1px #000000;
-  text-shadow: 1px 1px 1px #ECECEC;
-  margin: 20px;
+  box-shadow: 5px 5px 1px #000000;
+  margin: 20px auto;
+  max-width: 900px;
 }
 
 

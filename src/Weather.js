@@ -5,21 +5,23 @@ import WeatherInfo from "./WeatherInfo";
 
 
 export default function Weather(props) {
-    const [city, setCity] = useState(props.defaultCity);
-    const [weatherData, setWeatherData] = useState({ ready: false })
-    ;
-    function handleResponse(response) {
-        setWeatherData({
-            ready: true,
-            temperature: (Math.round(response.data.temperature.current)),
-            wind: response.data.wind.speed,
-            date: new Date(response.data.time * 1000),
-            city: response.data.city,
-            humidity: response.data.temperature.humidity,
-            condition: response.data.condition.decription,
-            icon: response.data.condition.icon_url,
-        });
-    }
+  const [weatherData, setWeatherData] = useState({ ready: false });
+  const [city, setCity] = useState(props.defaultCity);
+  function handleResponse(response) {
+    console.log(response.data);
+    setWeatherData({
+      ready: true,
+      city: response.data.city,
+      coordinates: response.data.coordinates,
+      date: new Date(response.data.time * 1000),
+      description: response.data.condition.description,
+      icon: response.data.condition.icon,
+      humidity: response.data.temperature.humidity,
+      temperature: response.data.temperature.current,
+      wind: response.data.wind.speed,
+    });
+  }
+
 
     function search() {
     const apiKey ="b3a37c1584b0oatf80a196c74f3071cb";
