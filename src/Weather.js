@@ -1,25 +1,23 @@
 import React, { useState } from "react";
 import "./Weather.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSun } from '@fortawesome/free-solid-svg-icons';
+import FormattedDate from "./FormattedDate";
 import axios from 'axios';
+
 
 export default function Weather() {
     const [weatherData, setWeatherData] = useState({ ready: false })
     ;
     function handleResponse(response) {
-        console.log(response.data);
         setWeatherData({
             ready: true,
             temperature: (Math.round(response.data.temperature.current)),
             wind: response.data.wind.speed,
-            date: "Wedenesday 07:00",
+            date: new Date(response.data.time * 1000),
             city: response.data.city,
             humidity: response.data.temperature.humididty,
             condition: response.data.condition.decription,
             icon: response.data.condition.icon_url,
         });
-
     }
 
     if (weatherData.ready) {
@@ -46,7 +44,9 @@ export default function Weather() {
                     </div>
                 </div>
             <ul className="date-forecast">
-                <li>{weatherData.date}</li>
+                <li>
+                    <FormattedDate date={weatherData.date} />
+                </li>
                 <li>{weatherData.condition}</li>
             </ul>
             <div className="row">
