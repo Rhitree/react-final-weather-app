@@ -7,7 +7,10 @@ export default function App() {
     <div className="outerContainer">
       <h1 className="mainHeading">Weather App</h1>
        <div className="container">
+        <div className="appContainerHeader"></div>
+        <div className="appContainerContent">
          <Weather defaultCity="Cardiff"/>
+         </div>
           </div>
       <footer>
         This project was coded by Rhian Jenkins and is open-sourced on 

@@ -1,5 +1,5 @@
 ul {
-  list-style: square;
+  list-style-type: none;
 }
 
 .container {
@@ -9,26 +9,27 @@ ul {
   margin: auto;
 }
 
-::marker {
-  color: #dc8b53;
-}
 
 .Weather {
     padding: 50px;
     color: #191919;
-    font-family:'VT323', Arial, sans-serif;
     font-size: 25px;
 }
 
 .Weather h1 {
     border: solid #191919;
-    font-size: 60px;
-    background: #FFE3F8;
-    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    background: #ffd318;
+    padding: 10px;
     text-align: center;
-    border-radius: 10px;
     line-height: 30px;
     box-shadow: 5px 5px 1px #191919;
+}
+
+.float-right {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 form {
@@ -43,34 +44,76 @@ form {
   display: inline-block;
   width: 80%;
   margin-right: 5px;
-  background-color: #ECECEC;
+  background-color: #fefffd;
 }
 
 .button {
   background-color: #BAD7FF;
   border: solid #191919;
-  color: #4f4f4f;
+  color: #191919;
   box-shadow: 5px 5px 1px #191919;
   display: inline-block;
 }
 
+.float-right {
+  margin-bottom: 20px;
+}
+
 .weatherContainer {
-  background-color: #e5e5f7;
-  background-image:  repeating-linear-gradient(45deg, #D8D9D7 25%, transparent 25%, transparent 75%, #D8D9D7 75%, #D8D9D7), repeating-linear-gradient(45deg, #D8D9D7 25%, #e5e5f7 25%, #e5e5f7 75%, #D8D9D7 75%, #D8D9D7);
+  background-color: #BAD7FF;
   background-position: 0 0, 10px 10px;
   background-size: 20px 20px;
-  padding: 30px;
-  border-radius: 10px;
+  padding: 0px;
   border: solid #191919;
   box-shadow: 5px 5px 1px #191919;
-
 }
 
-.Weather .temperature {
+.weatherContainerHeader {
+  padding: 5px;
+  text-align: right;
+  color: #fcffc8;
+  height: 30px;
+  background-color: #FFA0D6;
+  width: 100%;
+  border-bottom: solid #191919;
+}
+
+.appContainerContent {
+  padding: 0 50px;
+}
+
+.weatherContainerInfo {
+  text-align: center;
+  padding: 35px;
+}
+
+.dateInfo {
+  font-size: 30px;
   font-weight: bold;
-  font-size: 64px;
+  background-color: #fefffd;
+  border: solid #191919;
 }
 
-.Weather .unit {
-  font-size: 64px;
+.conditionInfo {
+  font-size: 30px;
+}
+
+.starburst {
+  background-color: #ffd318;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-left: 10px;
+  width: 150px;
+  height: 150px; /* adjust to control the size */
+  aspect-ratio: 1;
+  clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
+  }
+
+.temperature {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.unit {
+  font-size: 30px;
 }

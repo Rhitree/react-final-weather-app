@@ -1,69 +1,68 @@
 body {
-  font-family:'VT323', Arial, sans-serif;
-  padding: auto;
-  margin: auto;
-}
+    font-family:'caprasimo', Arial, sans-serif;
+    padding: 0;
+  }
+
+
 
 footer {
+  font-size: 12px;
   text-align: center;
-  background-color: #F8AB01;
+  background-color: #41c6e4;
   margin: 20px auto;
-  box-shadow: 5px 5px 1px #191919;
-  max-width: 900px;
+  box-shadow: 5px 5px 1px white;
+  max-width: 600px;
   display: block;
   border: solid #191919;
+  padding: 5px;
+  color: #fefffd;
+}
+
+.outerContainer {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  --s: 100px; /* control the size*/
+  --c1: #ffffff;
+  --c2: #fa7da0;
+  
+  --_g: #0000 90deg,var(--c1) 0;
+  background: 
+    conic-gradient(from 90deg at 2px 2px,var(--_g)),
+    var(--c2);
+  background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
+
 }
 
 .container {
   max-width: 900px;
   padding: auto;
   margin: auto;
-  background: #F7F1EA;
-  box-shadow: 5px 5px 1px #191919;
+  background: #feccd7;
+  box-shadow: 5px 5px 1px white;
   border: solid #191919;  
-  --s: 100px; /* control the size*/
-  --c1: #ffffff;
-  --c2: #F9F0EB;
-  
-  --_g: #0000 90deg,var(--c1) 0;
-  background: 
-    conic-gradient(from 90deg at 2px 2px,var(--_g)),
-    conic-gradient(from 90deg at 1px 1px,var(--_g)),
-    var(--c2);
-  background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
-  padding: 50px;
-  
-
+  padding: 0px;
 }
 
-.outerContainer {
-  padding: auto;
-  margin: auto;
-  
-  --s: 100px; /* control the size*/
-  --c1: #2d1e53;
-  --c2: #FFE3F8;
-  
-  --_g: #0000 90deg,var(--c1) 0;
-  background: 
-    conic-gradient(from 90deg at 2px 2px,var(--_g)),
-    conic-gradient(from 90deg at 1px 1px,var(--_g)),
-    var(--c2);
-  background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
-  padding: 50px;
+.appContainerHeader {
+  height: 30px;
+  background-color: #dfc4fb;
+  width: 100%;
+  border-bottom: solid #191919;
 }
 
 .mainHeading {
   border: solid #191919;
   font-weight: bold;
   font-size: 40px;
-  background: #F8AB01;
-  padding: auto;
+  background: #41c6e4;
+  color: #fefffd;
+  padding: 10px;
   text-align: center;
   font-style: italic;
-  box-shadow: 5px 5px 1px #000000;
+  box-shadow: 5px 5px 1px white;
   margin: 20px auto;
-  max-width: 900px;
+  max-width: 500px;
 }
 
 
