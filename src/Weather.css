@@ -6,18 +6,10 @@ hr {
     border-top: 6px solid #fefffd;
 }
 
-.container {
-  padding: auto;
-  padding-top: 10px;
-  margin: auto;
-}
-
-
 .Weather {
     padding: 20px 50px 50px 50px;
     color: #191919;
     font-size: 25px;
-    display: block;
 }
 
 .row {
@@ -29,11 +21,11 @@ hr {
 .Weather h1 {
     font-family:'Bungee', Arial, sans-serif;
     color: #4cc5e4;
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: 1px;
     padding: 10px;
-    text-align: right;
-    line-height: 30px;
+    text-align: center;
+    line-height: 50px;
     outline: #191919;
     text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
 }
@@ -74,11 +66,11 @@ form {
 
 .weatherContainer {
   background-color: #BAD7FF;
-  padding: 0px;
+  padding: auto;
+  margin: auto;
   border: solid #191919;
   box-shadow: 3px 3px 1px #191919;
   max-width: 600px;
-  display: block;
 }
 
 .weatherContainerHeader {
@@ -91,14 +83,12 @@ form {
   border-bottom: solid #191919;
 }
 
-.appContainerContent {
-}
-
 .weatherContainerInfo {
   text-align: center;
-  padding: 35px;
   font-style: italic;
   display: block;
+  padding: 20px;
+  margin: auto;
 }
 
 .dateInfo {
@@ -116,18 +106,21 @@ form {
   font-weight: bold;
   text-transform: capitalize;
   color: #FEFFFD;
+  text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
+
 }
 
 .starburst {
   background-color: #ffd318;
-  padding-top: 40px;
-  padding-left: 10px;
-  padding-left: 10px;
+  margin-left: 60px;
+  padding-top: 43px;
+  padding-left: 5px;
   width: 150px;
   height: 150px; /* adjust to control the size */
   aspect-ratio: 1;
   clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
-  }
+  border: black solid polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%); /* This adds a solid black line */
+}
 
 .temperature {
   font-weight: bold;
