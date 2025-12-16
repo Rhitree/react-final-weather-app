@@ -5,9 +5,8 @@ import './App.css';
 export default function App() {
   return <div className="App">
     <div className="outerContainer">
-      <h1 className="mainHeading">Weather App</h1>
        <div className="container">
-        <div className="appContainerHeader"></div>
+        <div className="appContainerHeader">React Weather App</div>
         <div className="appContainerContent">
          <Weather defaultCity="Cardiff"/>
          </div>

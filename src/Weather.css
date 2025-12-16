@@ -2,43 +2,55 @@ ul {
   list-style-type: none;
 }
 
+hr {
+    border-top: 6px solid #fefffd;
+}
+
 .container {
-  max-width: 900px;
   padding: auto;
-  padding-top: auto;
+  padding-top: 10px;
   margin: auto;
 }
 
 
 .Weather {
-    padding: 50px;
+    padding: 20px 50px 50px 50px;
     color: #191919;
     font-size: 25px;
+    display: block;
+}
+
+.row {
+  align-items: center;
+
+  padding: 0;
 }
 
 .Weather h1 {
-    border: solid #191919;
-    font-size: 30px;
+    font-family:'Bungee', Arial, sans-serif;
+    color: #4cc5e4;
+    font-size: 60px;
     letter-spacing: 1px;
-    background: #ffd318;
     padding: 10px;
-    text-align: center;
+    text-align: right;
     line-height: 30px;
-    box-shadow: 5px 5px 1px #191919;
+    outline: #191919;
+    text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
 }
+
 
 .float-right {
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 10px;
 }
 
 form {
-  margin-bottom: 40px;
   height: auto;
+  display: block;
 }
 
 .form-control {
-  box-shadow: 5px 5px 1px #191919;
+  box-shadow: 3px 3px 1px #191919;
   border: solid #191919;
   border-radius: 0%;
   display: inline-block;
@@ -49,23 +61,24 @@ form {
 
 .button {
   background-color: #BAD7FF;
+  font-size: 21px;
   border: solid #191919;
   color: #191919;
-  box-shadow: 5px 5px 1px #191919;
+  box-shadow: 3px 3px 1px #191919;
   display: inline-block;
 }
 
 .float-right {
-  margin-bottom: 20px;
+  padding-top: 20ox;
 }
 
 .weatherContainer {
   background-color: #BAD7FF;
-  background-position: 0 0, 10px 10px;
-  background-size: 20px 20px;
   padding: 0px;
   border: solid #191919;
-  box-shadow: 5px 5px 1px #191919;
+  box-shadow: 3px 3px 1px #191919;
+  max-width: 600px;
+  display: block;
 }
 
 .weatherContainerHeader {
@@ -79,23 +92,30 @@ form {
 }
 
 .appContainerContent {
-  padding: 0 50px;
 }
 
 .weatherContainerInfo {
   text-align: center;
   padding: 35px;
+  font-style: italic;
+  display: block;
 }
 
 .dateInfo {
   font-size: 30px;
-  font-weight: bold;
   background-color: #fefffd;
   border: solid #191919;
+  border-radius: 30px;
+  width: 350px;
+  display: inline-block;
 }
 
 .conditionInfo {
-  font-size: 30px;
+  font-size: 50px;
+  font-family:'Seaweed Script', Arial, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #FEFFFD;
 }
 
 .starburst {

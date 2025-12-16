@@ -10,7 +10,7 @@ footer {
   text-align: center;
   background-color: #41c6e4;
   margin: 20px auto;
-  box-shadow: 5px 5px 1px white;
+  box-shadow: 3px 3px 1px white;
   max-width: 600px;
   display: block;
   border: solid #191919;
@@ -24,46 +24,31 @@ footer {
   padding: 20px;
   --s: 100px; /* control the size*/
   --c1: #ffffff;
-  --c2: #fa7da0;
+  --c2: #DFC4FB;
   
   --_g: #0000 90deg,var(--c1) 0;
   background: 
     conic-gradient(from 90deg at 2px 2px,var(--_g)),
     var(--c2);
-  background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
+  background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5) ;
 
 }
 
 .container {
-  max-width: 900px;
+  max-width: 700px;
   padding: auto;
   margin: auto;
-  background: #feccd7;
-  box-shadow: 5px 5px 1px white;
+  background: #feccd2;
+  box-shadow: 3px 3px 1px white;
   border: solid #191919;  
   padding: 0px;
 }
 
 .appContainerHeader {
   height: 30px;
-  background-color: #dfc4fb;
+  background-color: #ffa0d6;
   width: 100%;
   border-bottom: solid #191919;
-}
-
-.mainHeading {
-  border: solid #191919;
-  font-weight: bold;
-  font-size: 40px;
-  background: #41c6e4;
-  color: #fefffd;
-  padding: 10px;
   text-align: center;
   font-style: italic;
-  box-shadow: 5px 5px 1px white;
-  margin: 20px auto;
-  max-width: 500px;
 }
-
-
-
