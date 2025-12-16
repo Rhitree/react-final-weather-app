@@ -130,3 +130,8 @@ form {
 .unit {
   font-size: 30px;
 }
+
+.condition {
+  text-align: center;
+  margin-right: 27px;
+}
