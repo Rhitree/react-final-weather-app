@@ -19,7 +19,7 @@ export default function WeatherInfo(props) {
                         </div>
                     </div>
                     <div className="weatherContainer">
-                        <div className="weatherContainerHeader"></div>
+                        <div className="weatherContainerHeader"> Current Weather</div>
                             <div className="weatherContainerInfo">
                                 <ul className="date-forecast">
                                     <li className="dateInfo">

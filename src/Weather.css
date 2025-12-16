@@ -74,9 +74,11 @@ form {
 }
 
 .weatherContainerHeader {
-  padding: 5px;
-  text-align: right;
-  color: #fcffc8;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
   height: 30px;
   background-color: #FFA0D6;
   width: 100%;
