@@ -115,8 +115,8 @@ form {
 .starburst {
   background-color: #ffd318;
   margin-left: 60px;
-  padding-top: 43px;
-  padding-left: 5px;
+  padding-top: 50px;
+  padding-left: 0px;
   width: 150px;
   height: 150px; /* adjust to control the size */
   aspect-ratio: 1;
@@ -126,11 +126,11 @@ form {
 
 .temperature {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .unit {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .condition {
