@@ -21,7 +21,8 @@ hr {
 .Weather h1 {
     font-family:'Bungee', Arial, sans-serif;
     color: #4cc5e4;
-    font-size: 40px;
+    font-size: 25px;
+    margin-left: 0px;
     letter-spacing: 1px;
     padding: 10px;
     text-align: center;
@@ -32,6 +33,7 @@ hr {
 
 
 .float-right {
+  max-height: 100px;
   margin-top: 0;
   padding-top: 10px;
 }
@@ -70,7 +72,7 @@ form {
   margin: auto;
   border: solid #191919;
   box-shadow: 3px 3px 1px #191919;
-  max-width: 600px;
+  max-width: 450px;
 }
 
 .weatherContainerHeader {
@@ -78,7 +80,7 @@ form {
   margin: auto;
   text-align: center;
   font-style: italic;
-  font-size: 18px;
+  font-size: 17px;
   height: 30px;
   background-color: #FFA0D6;
   width: 100%;
@@ -86,24 +88,27 @@ form {
 }
 
 .weatherContainerInfo {
+  font-size: 20px;
   text-align: center;
   font-style: italic;
   display: block;
   padding: 20px;
   margin: auto;
+  
 }
 
 .dateInfo {
-  font-size: 30px;
+  font-size: 20px;
   background-color: #fefffd;
   border: solid #191919;
   border-radius: 30px;
   width: 350px;
   display: inline-block;
+  font-style: normal;
 }
 
 .conditionInfo {
-  font-size: 50px;
+  font-size: 30px;
   font-family:'Seaweed Script', Arial, sans-serif;
   font-weight: bold;
   text-transform: capitalize;
@@ -114,11 +119,12 @@ form {
 
 .starburst {
   background-color: #ffd318;
+  font-style: normal;
   margin-left: 60px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-left: 0px;
-  width: 150px;
-  height: 150px; /* adjust to control the size */
+  width: 100px;
+  height: 100px; /* adjust to control the size */
   aspect-ratio: 1;
   clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
   border: black solid polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%); /* This adds a solid black line */
@@ -126,14 +132,18 @@ form {
 
 .temperature {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
+  text-shadow: 2px 2px 0 #FEFFFD, 2px -2px 0 #FEFFFD, -2px 2px 0 #FEFFFD, -2px -2px 0 #FEFFFD, 2px 0px 0 #FEFFFD, 0px 2px 0 #FEFFFD, -2px 0px 0 #FEFFFD, 0px -2px 0 #FEFFFD;
+
 }
 
 .unit {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .condition {
+  font-size: 15px;
   text-align: center;
-  margin-right: 27px;
+  margin-right: 30px;
+  text-shadow: 2px 2px 0 #FEFFFD, 2px -2px 0 #FEFFFD, -2px 2px 0 #FEFFFD, -2px -2px 0 #FEFFFD, 2px 0px 0 #FEFFFD, 0px 2px 0 #FEFFFD, -2px 0px 0 #FEFFFD, 0px -2px 0 #FEFFFD;
 }
