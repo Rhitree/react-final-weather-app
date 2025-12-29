@@ -13,9 +13,9 @@ export default function App() {
           </div>
       <footer>
         This project was coded by Rhian Jenkins and is open-sourced on 
-        <a href= "https://github.com/Rhitree/react-final-weather-app" target="_blank"> Github </a>
+        <a href= "https://github.com/Rhitree/react-final-weather-app" target="_blank" rel="noreferrer"> Github </a>
         and hosted on 
-        <a href="https://silver-eclair-98aa41.netlify.app/" target="_blank"> Netlify </a>
+        <a href="https://silver-eclair-98aa41.netlify.app/" target="_blank" rel="noreferrer"> Netlify </a>
       </footer>
       </div>
     </div>
