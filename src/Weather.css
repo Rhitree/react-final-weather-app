@@ -39,7 +39,6 @@ hr {
 }
 
 form {
-  height: auto;
   display: block;
 }
 
@@ -51,11 +50,12 @@ form {
   width: 80%;
   margin-right: 5px;
   background-color: #fefffd;
+  font-size: 11px;
 }
 
 .button {
   background-color: #BAD7FF;
-  font-size: 21px;
+  font-size: 16px;
   border: solid #191919;
   color: #191919;
   box-shadow: 3px 3px 1px #191919;
@@ -117,28 +117,38 @@ form {
 
 }
 
+.starburst2 {
+  background-color: black;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin: auto;
+  width: 110px;
+  height: 110px; /* adjust to control the size */
+  aspect-ratio: 1;
+  clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
+  }
+
 .starburst {
   background-color: #ffd318;
   font-style: normal;
-  margin-left: 60px;
-  padding-top: 20px;
-  padding-left: 0px;
+  padding-top: 15px;
   width: 100px;
   height: 100px; /* adjust to control the size */
   aspect-ratio: 1;
   clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
-  border: black solid polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%); /* This adds a solid black line */
 }
 
 .temperature {
-  font-weight: bold;
   font-size: 25px;
-  text-shadow: 2px 2px 0 #FEFFFD, 2px -2px 0 #FEFFFD, -2px 2px 0 #FEFFFD, -2px -2px 0 #FEFFFD, 2px 0px 0 #FEFFFD, 0px 2px 0 #FEFFFD, -2px 0px 0 #FEFFFD, 0px -2px 0 #FEFFFD;
+  text-shadow: 1px 1px 0 #FFA0D6, 1px -1px 0 #FFA0D6, -1px 1px 0 #FFA0D6, -1px -1px 0 #FFA0D6, 1px 0px 0 #FFA0D6, 0px 1px 0 #FFA0D6, -1px 0px 0 #FFA0D6, 0px -1px 0 #FFA0D6;
 
 }
 
 .unit {
   font-size: 15px;
+  text-decoration: #191919;
+  text-shadow: 1px 1px 0 #FEFFFD, 1px -1px 0 #FEFFFD, -1px 1px 0 #FEFFFD, -1px -1px 0 #FEFFFD, 1px 0px 0 #FEFFFD, 0px 1px 0 #FEFFFD, -1px 0px 0 #FEFFFD, 0px -1px 0 #FEFFFD;
+
 }
 
 .condition {
@@ -146,4 +156,16 @@ form {
   text-align: center;
   margin-right: 30px;
   text-shadow: 2px 2px 0 #FEFFFD, 2px -2px 0 #FEFFFD, -2px 2px 0 #FEFFFD, -2px -2px 0 #FEFFFD, 2px 0px 0 #FEFFFD, 0px 2px 0 #FEFFFD, -2px 0px 0 #FEFFFD, 0px -2px 0 #FEFFFD;
+}
+
+a:link {
+  color: #FFA0D6;
+    text-shadow: 1px 1px 0 #FEFFFD, 1px -1px 0 #FEFFFD, -1px 1px 0 #FEFFFD, -1px -1px 0 #FEFFFD, 1px 0px 0 #FEFFFD, 0px 1px 0 #FEFFFD, -1px 0px 0 #FEFFFD, 0px -1px 0 #FEFFFD;
+
+}
+
+a:visited {
+  color: #FFA0D6;
+  text-shadow: 1px 1px 0 #FEFFFD, 1px -1px 0 #FEFFFD, -1px 1px 0 #FEFFFD, -1px -1px 0 #FEFFFD, 1px 0px 0 #FEFFFD, 0px 1px 0 #FEFFFD, -1px 0px 0 #FEFFFD, 0px -1px 0 #FEFFFD;
+
 }

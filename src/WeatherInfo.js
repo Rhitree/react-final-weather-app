@@ -31,8 +31,10 @@ export default function WeatherInfo(props) {
                                 <hr></hr>
                                 <div className="row">
                                     <div className="col-6">
-                                        <div className="starburst">
-                                            <WeatherTemperature celsius={props.data.temperature}/>
+                                        <div className="starburst2">
+                                            <div className="starburst">
+                                                <WeatherTemperature celsius={props.data.temperature}/>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-6">
