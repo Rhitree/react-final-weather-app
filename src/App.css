@@ -39,14 +39,14 @@ footer {
   padding: auto;
   margin: auto;
   background: #feccd2;
-  box-shadow: 3px 3px 1px white;
+  box-shadow: 3px 3px 1px #191919;
   border: solid #191919;  
   padding: 0px;
 }
 
 .appContainerHeader {
-  height: 30px;
   background-color: #ffa0d6;
+  font-size: 17px;
   width: 100%;
   border-bottom: solid #191919;
   text-align: center;

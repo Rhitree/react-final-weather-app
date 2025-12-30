@@ -8,10 +8,10 @@ export default function WeatherInfo(props) {
     return (
         <div className="weatherInfo">
                 <div className="row">
-                        <div className="col-7">
+                        <div className="col-9">
                             <h1 className="cityBox">◅{props.data.city}▻</h1>
                         </div>
-                        <div className="col-5">
+                        <div className="col-3">
                             <div className="float-right">
                                 <WeatherIcon 
                                 code={props.data.icon} 

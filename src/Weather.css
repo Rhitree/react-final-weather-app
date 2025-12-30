@@ -4,6 +4,7 @@ ul {
 
 hr {
     border-top: 6px solid #fefffd;
+    padding: auto;
 }
 
 .Weather {
@@ -21,19 +22,16 @@ hr {
 .Weather h1 {
     font-family:'Bungee', Arial, sans-serif;
     color: #4cc5e4;
-    font-size: 25px;
-    margin-left: 0px;
+    font-size: 30px;
     letter-spacing: 1px;
     padding: 10px;
     text-align: center;
-    line-height: 50px;
     outline: #191919;
     text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
 }
 
 
 .float-right {
-  max-height: 100px;
   margin-top: 0;
   padding-top: 10px;
 }
@@ -62,10 +60,6 @@ form {
   display: inline-block;
 }
 
-.float-right {
-  padding-top: 20ox;
-}
-
 .weatherContainer {
   background-color: #BAD7FF;
   padding: auto;
@@ -81,7 +75,6 @@ form {
   text-align: center;
   font-style: italic;
   font-size: 17px;
-  height: 30px;
   background-color: #FFA0D6;
   width: 100%;
   border-bottom: solid #191919;
@@ -103,18 +96,17 @@ form {
   border: solid #191919;
   border-radius: 30px;
   width: 350px;
-  display: inline-block;
   font-style: normal;
 }
 
 .conditionInfo {
   font-size: 30px;
+  margin-top: 10px;
   font-family:'Seaweed Script', Arial, sans-serif;
   font-weight: bold;
   text-transform: capitalize;
   color: #FEFFFD;
   text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
-
 }
 
 .starburst2 {

@@ -1,0 +1,19 @@
+.WeatherForecast {
+    text-align: center;
+    background-color: #feccd2;
+    padding: auto;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 3px 3px 1px #191919;
+    border: solid #191919;
+    max-width: 700px;
+}
+
+.WeatherForecast-temperature-min {
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+.WeatherForecast-icon {
+    background-color: #BAD7FF;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Weather from './Weather';
 import './App.css';
+import WeatherForecast from './WeatherForecast';
 
 export default function App() {
   return <div className="App">
@@ -10,6 +11,9 @@ export default function App() {
         <div className="appContainerContent">
          <Weather defaultCity="Cardiff"/>
          </div>
+          </div>
+          <div className="ForecastContainer">
+              <WeatherForecast />
           </div>
       <footer>
         This project was coded by Rhian Jenkins and is open-sourced on 
