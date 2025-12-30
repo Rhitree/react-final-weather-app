@@ -7,7 +7,13 @@ export default function App() {
   return <div className="App">
     <div className="outerContainer">
        <div className="container">
-        <div className="appContainerHeader">React Weather App</div>
+        <div className="appContainerHeader">
+              <div className="dots1">
+                 <span className="dot1"></span>
+                 <span className="dot2"></span>
+                 <span className="dot3-1"></span>
+                  React Weather App</div>
+              </div>
         <div className="appContainerContent">
          <Weather defaultCity="Cardiff"/>
          </div>

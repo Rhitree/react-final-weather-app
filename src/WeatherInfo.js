@@ -21,10 +21,12 @@ export default function WeatherInfo(props) {
                     </div>
                     <div className="weatherContainer">
                         <div className="weatherContainerHeader">
+                            <div className="dots2">
                                 <span className="dot1"></span>
                                 <span className="dot2"></span>
-                                <span className="dot3"></span>
+                                <span className="dot3-2"></span>
                                 Current Weather
+                            </div>
                             </div>
                             <div className="weatherContainerInfo">
                                 <ul className="date-forecast">
