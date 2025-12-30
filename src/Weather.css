@@ -4,18 +4,18 @@ ul {
 
 hr {
     border-top: 6px solid #fefffd;
-    padding: auto;
+    padding: 0;
+    margin: 5px;
 }
 
 .Weather {
-    padding: 20px 50px 50px 50px;
+    padding: 20px 50px 20px 50px;
     color: #191919;
     font-size: 25px;
 }
 
 .row {
   align-items: center;
-
   padding: 0;
 }
 
@@ -101,7 +101,7 @@ form {
 
 .conditionInfo {
   font-size: 30px;
-  margin-top: 10px;
+  margin-bottom: -15px;
   font-family:'Seaweed Script', Arial, sans-serif;
   font-weight: bold;
   text-transform: capitalize;
@@ -114,8 +114,8 @@ form {
   padding-left: 5px;
   padding-top: 5px;
   margin: auto;
-  width: 110px;
-  height: 110px; /* adjust to control the size */
+  width: 100px;
+  height: 100px; /* adjust to control the size */
   aspect-ratio: 1;
   clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
   }
@@ -123,20 +123,22 @@ form {
 .starburst {
   background-color: #ffd318;
   font-style: normal;
-  padding-top: 15px;
-  width: 100px;
-  height: 100px; /* adjust to control the size */
+  padding-top: 12px;
+  width: 90px;
+  height: 90px; /* adjust to control the size */
   aspect-ratio: 1;
   clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
 }
 
 .temperature {
+  margin-bottom: -5px;
   font-size: 25px;
   text-shadow: 1px 1px 0 #FFA0D6, 1px -1px 0 #FFA0D6, -1px 1px 0 #FFA0D6, -1px -1px 0 #FFA0D6, 1px 0px 0 #FFA0D6, 0px 1px 0 #FFA0D6, -1px 0px 0 #FFA0D6, 0px -1px 0 #FFA0D6;
 
 }
 
 .unit {
+  margin-top: 0px;
   font-size: 15px;
   text-decoration: #191919;
   text-shadow: 1px 1px 0 #FEFFFD, 1px -1px 0 #FEFFFD, -1px 1px 0 #FEFFFD, -1px -1px 0 #FEFFFD, 1px 0px 0 #FEFFFD, 0px 1px 0 #FEFFFD, -1px 0px 0 #FEFFFD, 0px -1px 0 #FEFFFD;
@@ -160,4 +162,12 @@ a:visited {
   color: #FFA0D6;
   text-shadow: 1px 1px 0 #FEFFFD, 1px -1px 0 #FEFFFD, -1px 1px 0 #FEFFFD, -1px -1px 0 #FEFFFD, 1px 0px 0 #FEFFFD, 0px 1px 0 #FEFFFD, -1px 0px 0 #FEFFFD, 0px -1px 0 #FEFFFD;
 
+}
+
+.dot1 {
+  height: 25px;
+  width: 25px;
+  background-color: ;
+  border-radius: 50%;
+  display: inline-block;
 }

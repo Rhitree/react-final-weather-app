@@ -10,7 +10,11 @@ export default function WeatherForecast(props) {
                     <div className="col">
                     <div className="WeatherForecast-day">Thu</div>
                     <div className="WeatherForecast-temperatures">
-                        <div className="WeatherForecast-icon">Icon</div>
+                        <div className="WeatherForecast-icon">
+                                <WeatherIcon 
+                                code={"clear-sky-day"} size={50}
+                                />                            
+                        </div>
                         <span className="WeatherForecast-temperature-max">19°</span>
                         <span className="WeatherForecast-temperature-min">10°</span>
                     </div>

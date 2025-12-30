@@ -9,7 +9,7 @@ footer {
   font-size: 12px;
   text-align: center;
   background-color: #41c6e4;
-  margin: 20px auto;
+  margin: 10px auto;
   box-shadow: 3px 3px 1px white;
   max-width: 600px;
   display: block;
@@ -21,7 +21,7 @@ footer {
 .outerContainer {
   max-width: 1100px;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   --s: 100px; /* control the size*/
   --c1: #ffffff;
   --c2: #DFC4FB;
