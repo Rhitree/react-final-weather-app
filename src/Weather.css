@@ -34,7 +34,7 @@ hr {
 
 
 .float-right {
-  margin-top: 0;
+  margin-top: 5px;
   padding-top: 10px;
 }
 
@@ -150,7 +150,8 @@ form {
 .condition {
   font-size: 15px;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 35px;
+  margin-top: 17px;
   text-shadow: 2px 2px 0 #FEFFFD, 2px -2px 0 #FEFFFD, -2px 2px 0 #FEFFFD, -2px -2px 0 #FEFFFD, 2px 0px 0 #FEFFFD, 0px 2px 0 #FEFFFD, -2px 0px 0 #FEFFFD, 0px -2px 0 #FEFFFD;
 }
 
