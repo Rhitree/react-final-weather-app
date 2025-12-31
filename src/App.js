@@ -19,7 +19,6 @@ export default function App() {
          </div>
           </div>
           <div className="ForecastContainer">
-              <WeatherForecast />
           </div>
       <footer>
         This project was coded by Rhian Jenkins and is open-sourced on 
